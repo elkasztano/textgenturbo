@@ -15,7 +15,7 @@ use rand::prelude::*;
 use std::{fs::File, time::Duration};
 use xorwowgen::xorwow64::WrapB;
 
-use textgen::{
+use textgenturbo::{
     animation::{move_camera, wave_waveable, CameraMovement, WaveAble},
     cli::Cli,
     text2mesh::generate_text,
